@@ -1,0 +1,57 @@
+html{
+  background-color: rgb(255, 255, 180);
+
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.113);
+  width: 400px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  align-items: center;
+	border: 1px solid black;
+}
+
+.tarea {
+  display: flex;
+  justify-content: space-between;
+	background-color: rgb(255, 209, 209);
+	user-select: none;
+	cursor: pointer;
+}
+
+.finalizada {
+  background-color: rgb(202, 253, 230);
+}
+
+p {
+  margin: 0;
+}
+
+#nuevaTareaContainer{
+	display: flex;
+	justify-content: space-between;
+}
+
+#tareasContainer{
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	list-style-type: none;
+	width: 100%;
+	margin: 0 20%;
+}
+
+
+input{
+	padding: 5px 10px;
+	margin-right: auto;
+}
+
+button{
+	height:100%;
+}
